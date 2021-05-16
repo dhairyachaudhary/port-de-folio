@@ -4,31 +4,30 @@
     box-sizing: border-box;
 }
 
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	z-index: -10;
+}
+
+.flip {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
 
 .dharu{
+	background-image: url(../images/gradient.png);
+	background-image: url(../images/gradient.png);
+	z-index:-6;
 	background-repeat: no-repeat;
 	background-color: #372271;
-}
-
-.grad{
-	position: absolute;
-	left: -5px;
-	top: 0px;
-	z-index:-5;
-}
-
-.stars{
-	max-width: 1280px;
-	opacity: 0.6;
-	position: absolute;
-	left: 0px;
-	top: 0px;
 
 }
 
 .myimage{
-	padding-top: 20px;
-	padding-right: 20px;
+	padding-right: 15px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -37,7 +36,7 @@
 
 .heading{
 	font-family: 'Mountains of Christmas';
-	font-size: 70px;
+	font-size: 80px;
 	font-weight: bold;
 	line-height: 111px;
 	color: #FFFFFF;
@@ -52,6 +51,7 @@
 	line-height: 55px;
 	color: #FFFFFF;
 	text-align: center;
+	padding-top: 30px;
 }
 
 .subheading{
@@ -78,7 +78,7 @@
 	position: absolute;
 	width: 270px;
 	left: 1047px;
-	top: 610px;
+	top: 640px;
 	transform: rotate(-12.5deg);
 }
 
@@ -254,14 +254,84 @@
 	top: 465px;
 }
 
-@fa-twitter: #ffffff;
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+.floating {  
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+  
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
 }
 
+.floating2 {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+  
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.floating3 {  
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+  
+@keyframes floating3 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.grid-container{
+	display: flex;
+	justify-content: center;
+	margin-top: -75px;
+}
+
+.logo{
+	width: 48px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*.logo:hover{
+	box-shadow: 0 0 15px #d35400;
+	text-shadow: 0 0 15px #d35400;
+}*/
+
+
+.twinkle {  
+    animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+  
+@keyframes twinkle {
+    0% { 
+    	opacity: 0.1; 
+    }
+    50%  { 
+    	opacity: 0.5; 
+    }
+    100%   { 
+    	opacity: 0.1; 
+    }    
+}
