@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dharu{
+	background-repeat: no-repeat;
+	background-color: #372271;
+}
+
+.grad{
+	position: absolute;
+	left: -5px;
+	top: 0px;
+	z-index:-5;
+}
+
+.stars{
+	max-width: 1280px;
+	opacity: 0.6;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+}
+
+.myimage{
+	padding-top: 20px;
+	padding-right: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+.heading{
+	font-family: 'Mountains of Christmas';
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 111px;
+	color: #FFFFFF;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.heading2{
+	font-family: 'Mountains of Christmas';
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 55px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.subheading{
+	font-family: Life Savers;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+	color: #C7B7F6;
+}
+
+.intro{
+	font-family: Open Sans;
+	font-size: 	20px;
+	line-height: 25px;
+	color: #E5E5E5;
+	padding-right: 75px;
+	padding-left: 75px;
+}
+
+.cloud1{
+	opacity: 0.1;
+	z-index:-5;
+	position: absolute;
+	width: 270px;
+	left: 1047px;
+	top: 610px;
+	transform: rotate(-12.5deg);
+}
+
+.cloud2{
+	opacity: 0.1;
+	z-index:-5;
+	position: absolute;
+	width: 150px;
+	left: 962px;
+	top: 800px;
+	transform: rotate(-12.5deg);
+}
+
+.cloud3{
+	opacity: 0.1;
+	z-index:-5;
+	position: absolute;
+	width: 300px;
+	left: -70px;
+	top: 690px;
+	transform: rotate(-10deg);
+}
+
+.cloud4{
+	opacity: 0.1;
+	z-index:-5;
+	position: absolute;
+	width: 120px;
+	left: 310px;
+	top: 810px;
+	transform: rotate(-10deg);
+}
+
+.cloud5{
+	opacity: 0.1;
+	z-index:-5;
+	position: absolute;
+	width: 170px;
+	left: 650px;
+	top: 690px;
+	transform: rotate(-10deg);
+}
+
+.book:hover{
+	opacity: 1.0;
+	max-width: 190px;
+	left: 255px;
+	top: 295px;
+}
+
+.book{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 180px;
+	height: auto;
+	left: 260px;
+	top: 300px;
+}
+
+.flower{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 180px;
+	height: auto;
+	left: 20px;
+	top: 350px;
+}
+
+.cat{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 180px;
+	height: auto;
+	left: 1070px;
+	top: 350px;
+}
+
+.flower:hover{
+	opacity: 1.0;
+	max-width: 190px;
+	left: 15px;
+	top: 345px;
+}
+
+.cat:hover{
+	opacity: 1.0;
+	max-width: 190px;
+	left: 1065px;
+	top: 345px;
+}
+
+.pen{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 60px;
+	height: auto;
+	left: 1015px;
+	top: 320px;
+}
+
+.paintbrush{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 60px;
+	height: auto;
+	left: 160px;
+	top: 315px;
+}
+
+.pen:hover{
+	opacity: 1.0;
+	position: absolute;
+	max-width: 65px;
+	height: auto;
+	left: 1012px;
+	top: 317px;
+}
+
+.paintbrush:hover{
+	opacity: 1.0;
+	position: absolute;
+	max-width: 65px;
+	height: auto;
+	left: 157px;
+	top: 312px;
+}
+
+.code{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 65px;
+	height: auto;
+	left: 260px;
+	top: 470px;
+}
+
+.music{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 180px;
+	height: auto;
+	left: 810px;
+	top: 300px;
+}
+
+.origami{
+	opacity: 0.35;
+	position: absolute;
+	max-width: 85px;
+	height: auto;
+	left: 955px;
+	top: 470px;
+}
+
+.code:hover{
+	opacity: 1.0;
+	max-width: 75px;
+	left: 255px;
+	top: 465px;
+}
+
+.music:hover{
+	opacity: 1.0;
+	max-width: 190px;
+	left: 805px;
+	top: 295px;
+}
+
+.origami:hover{
+	opacity: 1.0;
+	max-width: 95px;
+	left: 950px;
+	top: 465px;
+}
+
+@fa-twitter: #ffffff;
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
